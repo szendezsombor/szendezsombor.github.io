@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div\r\n        class=\"form-group country-search\"\r\n        (focusin)=\"isFilteredCountriesShown = true\"\r\n>\r\n    <input\r\n            class=\"form-control\"\r\n            type=\"text\"\r\n            (keyup)=\"listCountries(country.value, $event)\"\r\n            placeholder=\"Enter country name\"\r\n            autofocus\r\n            #country>\r\n    <ul class=\"country-list\" *ngIf=\"filteredCountries.length > 0 && isFilteredCountriesShown\">\r\n        <li *ngFor=\"let filteredCountry of filteredCountries\" (click)=\"selectCountry(filteredCountry)\">\r\n            <p [innerHTML]=\"filteredCountry.name | appBoldPartPipe: country.value\"></p>\r\n        </li>\r\n    </ul>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div\r\n        class=\"form-group country-search\"\r\n        (focusin)=\"isFilteredCountriesShown = true\"\r\n>\r\n    <input\r\n            class=\"form-control\"\r\n            type=\"text\"\r\n            (keyup)=\"listCountries(country.value, $event)\"\r\n            placeholder=\"Enter country name\"\r\n            #country>\r\n    <ul class=\"country-list\" *ngIf=\"filteredCountries.length > 0 && isFilteredCountriesShown\">\r\n        <li *ngFor=\"let filteredCountry of filteredCountries\" (click)=\"selectCountry(filteredCountry)\">\r\n            <p [innerHTML]=\"filteredCountry.name | appBoldPartPipe: country.value\"></p>\r\n        </li>\r\n    </ul>\r\n</div>\r\n");
 
 /***/ }),
 
